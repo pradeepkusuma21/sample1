@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers - TechStaff Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-white">
+    <!-- Header -->
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center gap-2">
+                    <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-xl">T</span>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold text-gray-900">TechStaff</h1>
+                        <p class="text-xs text-blue-600">Pro Solutions</p>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center gap-8">
+                    <a href="index.html" class="text-sm font-medium text-gray-700 hover:text-blue-600">Home</a>
+                    <a href="about.html" class="text-sm font-medium text-gray-700 hover:text-blue-600">About Us</a>
+                    <a href="clients.html" class="text-sm font-medium text-gray-700 hover:text-blue-600">Clients</a>
+                    <a href="certifications.html" class="text-sm font-medium text-gray-700 hover:text-blue-600">Certifications</a>
+                    <a href="training.html" class="text-sm font-medium text-gray-700 hover:text-blue-600">Training</a>
+                    <a href="careers.html" class="text-sm font-medium text-blue-600">Careers</a>
+                    <a href="contact.html" class="text-sm font-medium text-gray-700 hover:text-blue-600">Contact</a>
+                </nav>
+                <a href="contact.html" class="hidden lg:block px-6 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Get Started</a>
+                <button id="mobile-menu-btn" class="lg:hidden p-2">
+                    <i data-lucide="menu" class="w-7 h-7"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="lg:hidden bg-white border-t overflow-hidden max-h-0">
+            <nav class="container mx-auto px-4 py-6">
+                <a href="index.html" class="block py-3 px-4 rounded-lg hover:bg-gray-50 mb-2">Home</a>
+                <a href="about.html" class="block py-3 px-4 rounded-lg hover:bg-gray-50 mb-2">About</a>
+                <a href="clients.html" class="block py-3 px-4 rounded-lg hover:bg-gray-50 mb-2">Clients</a>
+                <a href="certifications.html" class="block py-3 px-4 rounded-lg hover:bg-gray-50 mb-2">Certifications</a>
+                <a href="training.html" class="block py-3 px-4 rounded-lg hover:bg-gray-50 mb-2">Training</a>
+                <a href="careers.html" class="block py-3 px-4 rounded-lg bg-blue-50 text-blue-600 mb-2">Careers</a>
+                <a href="contact.html" class="block py-3 px-4 rounded-lg hover:bg-gray-50">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <!-- Hero -->
+        <section class="relative bg-gradient-to-br from-green-600 via-blue-600 to-blue-800 text-white py-20">
+            <div class="absolute inset-0 grid-pattern opacity-20"></div>
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="fade-in">
+                        <h1 class="text-5xl font-bold mb-6">Join Our Team</h1>
+                        <p class="text-xl text-blue-100 mb-8">Be part of a dynamic team that's reshaping the future of IT staffing. Discover exciting career opportunities.</p>
+                        <div class="flex gap-4">
+                            <a href="#openings" class="px-8 py-4 bg-white text-blue-600 rounded-lg hover:bg-blue-50 font-semibold">View Positions</a>
+                            <a href="#culture" class="px-8 py-4 border-2 border-white rounded-lg hover:bg-white/10 font-semibold">Our Culture</a>
+                        </div>
+                    </div>
+                    <div class="fade-in-delay">
+                        <img src="https://images.unsplash.com/photo-1758876019673-704b039d405c?w=1080" alt="Career growth" class="w-full h-[400px] object-cover rounded-2xl shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 fade-in-scroll">
+                    <h2 class="text-4xl font-bold mb-4">Why Work With Us</h2>
+                    <p class="text-xl text-gray-600">Industry-leading benefits and perks</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-gradient-to-br from-gray-50 to-blue-50 p-8 rounded-xl shadow-sm fade-in-scroll">
+                        <div class="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center text-white mb-6">
+                            <i data-lucide="heart" class="w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Health & Wellness</h3>
+                        <p class="text-gray-600">Comprehensive medical, dental, vision insurance, plus mental health support.</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-gray-50 to-blue-50 p-8 rounded-xl shadow-sm fade-in-scroll">
+                        <div class="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center text-white mb-6">
+                            <i data-lucide="dollar-sign" class="w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Competitive Pay</h3>
+                        <p class="text-gray-600">Market-leading salaries, performance bonuses, and equity options.</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-gray-50 to-blue-50 p-8 rounded-xl shadow-sm fade-in-scroll">
+                        <div class="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center text-white mb-6">
+                            <i data-lucide="clock" class="w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Work-Life Balance</h3>
+                        <p class="text-gray-600">Flexible hours, remote work options, and unlimited PTO.</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-gray-50 to-blue-50 p-8 rounded-xl shadow-sm fade-in-scroll">
+                        <div class="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center text-white mb-6">
+                            <i data-lucide="trending-up" class="w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Career Growth</h3>
+                        <p class="text-gray-600">Professional development budget and mentorship programs.</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-gray-50 to-blue-50 p-8 rounded-xl shadow-sm fade-in-scroll">
+                        <div class="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center text-white mb-6">
+                            <i data-lucide="award" class="w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Learning</h3>
+                        <p class="text-gray-600">Access to courses, conferences, and certifications.</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-gray-50 to-blue-50 p-8 rounded-xl shadow-sm fade-in-scroll">
+                        <div class="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center text-white mb-6">
+                            <i data-lucide="users" class="w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Amazing Culture</h3>
+                        <p class="text-gray-600">Collaborative environment and supportive colleagues.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Job Openings -->
+        <section id="openings" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12 fade-in-scroll">
+                    <h2 class="text-4xl font-bold mb-4">Current Openings</h2>
+                    <p class="text-xl text-gray-600">Find your next career opportunity</p>
+                </div>
+
+                <div class="space-y-6 max-w-5xl mx-auto">
+                    <!-- Job 1 -->
+                    <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow p-8 job-card fade-in-scroll">
+                        <div class="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-4">
+                            <div>
+                                <h3 class="text-2xl font-bold mb-2">Senior Full-Stack Developer</h3>
+                                <div class="flex flex-wrap gap-3 mb-4">
+                                    <span class="flex items-center gap-1 text-gray-600">
+                                        <i data-lucide="map-pin" class="w-4 h-4"></i>
+                                        San Francisco, CA
+                                    </span>
+                                    <span class="flex items-center gap-1 text-gray-600">
+                                        <i data-lucide="clock" class="w-4 h-4"></i>
+                                        Full-time
+                                    </span>
+                                    <span class="flex items-center gap-1 text-gray-600">
+                                        <i data-lucide="dollar-sign" class="w-4 h-4"></i>
+                                        $120k - $180k
+                                    </span>
+                                </div>
+                            </div>
+                            <button class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-semibold whitespace-nowrap">Apply Now</button>
+                        </div>
+                        <p class="text-gray-600 mb-4">Build scalable web applications using React, Node.js, and cloud technologies.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-lg text-sm">5+ years experience</span>
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-lg text-sm">React & Node.js</span>
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-lg text-sm">Cloud platforms</span>
+                        </div>
+                    </div>
+
+                    <!-- Job 2 -->
+                    <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow p-8 job-card fade-in-scroll">
+                        <div class="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-4">
+                            <div>
+                                <h3 class="text-2xl font-bold mb-2">DevOps Engineer</h3>
+                                <div class="flex flex-wrap gap-3 mb-4">
+                                    <span class="flex items-center gap-1 text-gray-600">
+                                        <i data-lucide="map-pin" class="w-4 h-4"></i>
+                                        Remote
+                                    </span>
+                                    <span class="flex items-center gap-1 text-gray-600">
+                                        <i data-lucide="clock" class="w-4 h-4"></i>
+                                        Full-time
+                                    </span>
+                                    <span class="flex items-center gap-1 text-gray-600">
+                                        <i data-lucide="dollar-sign" class="w-4 h-4"></i>
+                                        $110k - $160k
+                                    </span>
+                                </div>
+                            </div>
+                            <button class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-semibold whitespace-nowrap">Apply Now</button>
+                        </div>
+                        <p class="text-gray-600 mb-4">Design CI/CD pipelines, automate infrastructure, and ensure system reliability.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-lg text-sm">3+ years DevOps</span>
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-lg text-sm">Kubernetes & Docker</span>
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-lg text-sm">IaC</span>
+                        </div>
+                    </div>
+
+                    <!-- Job 3 -->
+                    <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow p-8 job-card fade-in-scroll">
+                        <div class="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-4">
+                            <div>
+                                <h3 class="text-2xl font-bold mb-2">Technical Recruiter</h3>
+                                <div class="flex flex-wrap gap-3 mb-4">
+                                    <span class="flex items-center gap-1 text-gray-600">
+                                        <i data-lucide="map-pin" class="w-4 h-4"></i>
+                                        New York, NY
+                                    </span>
+                                    <span class="flex items-center gap-1 text-gray-600">
+                                        <i data-lucide="clock" class="w-4 h-4"></i>
+                                        Full-time
+                                    </span>
+                                    <span class="flex items-center gap-1 text-gray-600">
+                                        <i data-lucide="dollar-sign" class="w-4 h-4"></i>
+                                        $70k - $100k
+                                    </span>
+                                </div>
+                            </div>
+                            <button class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-semibold whitespace-nowrap">Apply Now</button>
+                        </div>
+                        <p class="text-gray-600 mb-4">Source and recruit top IT talent for our growing client base.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-lg text-sm">2+ years recruiting</span>
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-lg text-sm">Technical screening</span>
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-lg text-sm">ATS proficiency</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culture -->
+        <section id="culture" class="py-20 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="fade-in-scroll">
+                        <img src="https://images.unsplash.com/photo-1758691736975-9f7f643d178e?w=1080" alt="Team collaboration" class="w-full h-[500px] object-cover rounded-2xl shadow-xl">
+                    </div>
+                    <div class="fade-in-scroll">
+                        <h2 class="text-4xl font-bold mb-6">Our Culture & Values</h2>
+                        <p class="text-lg text-gray-600 mb-8">At TechStaff Pro, we believe our people are our greatest asset. We've built a culture that celebrates diversity and supports growth.</p>
+                        <div class="space-y-3">
+                            <div class="flex items-center gap-3 p-4 bg-gray-50 rounded-lg">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                                <span class="text-gray-800 font-medium">Innovation and continuous improvement</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-4 bg-gray-50 rounded-lg">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                                <span class="text-gray-800 font-medium">Diversity, equity, and inclusion</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-4 bg-gray-50 rounded-lg">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                                <span class="text-gray-800 font-medium">Work-life balance and flexibility</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-4 bg-gray-50 rounded-lg">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                                <span class="text-gray-800 font-medium">Collaboration and teamwork</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="py-20 bg-gradient-to-r from-green-600 to-blue-600 text-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto fade-in-scroll">
+                    <h2 class="text-4xl font-bold mb-6">Don't See the Right Position?</h2>
+                    <p class="text-xl mb-8">Send us your resume and we'll keep you in mind for future opportunities.</p>
+                    <a href="contact.html" class="inline-block px-8 py-4 bg-white text-blue-600 rounded-lg hover:bg-blue-50 font-semibold">Submit Your Resume</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-xl">T</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white">TechStaff</h3>
+                            <p class="text-xs text-blue-400">Pro Solutions</p>
+                        </div>
+                    </div>
+                    <p class="text-sm">Leading provider of IT staffing solutions worldwide.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-sm hover:text-blue-400">Home</a></li>
+                        <li><a href="about.html" class="text-sm hover:text-blue-400">About</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="training.html" class="text-sm hover:text-blue-400">Training</a></li>
+                        <li><a href="certifications.html" class="text-sm hover:text-blue-400">Certifications</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Contact</h4>
+                    <p class="text-sm">info@techstaffpro.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 py-6 text-center text-sm">
+            <p>&copy; 2026 TechStaff Pro Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

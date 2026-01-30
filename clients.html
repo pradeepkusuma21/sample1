@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clients - TechStaff Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-white">
+    <!-- Header (same structure as other pages) -->
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm transition-all duration-300">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center gap-2">
+                    <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-xl">T</span>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold text-gray-900">TechStaff</h1>
+                        <p class="text-xs text-blue-600">Pro Solutions</p>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center gap-8">
+                    <a href="index.html" class="text-sm font-medium text-gray-700 hover:text-blue-600">Home</a>
+                    <a href="about.html" class="text-sm font-medium text-gray-700 hover:text-blue-600">About Us</a>
+                    <a href="clients.html" class="text-sm font-medium text-blue-600">Clients</a>
+                    <a href="certifications.html" class="text-sm font-medium text-gray-700 hover:text-blue-600">Certifications</a>
+                    <a href="training.html" class="text-sm font-medium text-gray-700 hover:text-blue-600">Training</a>
+                    <a href="careers.html" class="text-sm font-medium text-gray-700 hover:text-blue-600">Careers</a>
+                    <a href="contact.html" class="text-sm font-medium text-gray-700 hover:text-blue-600">Contact</a>
+                </nav>
+                <a href="contact.html" class="hidden lg:block px-6 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Get Started</a>
+                <button id="mobile-menu-btn" class="lg:hidden p-2 text-gray-700">
+                    <i data-lucide="menu" class="w-7 h-7"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="lg:hidden bg-white border-t border-gray-100 overflow-hidden max-h-0 transition-all duration-300">
+            <nav class="container mx-auto px-4 py-6">
+                <a href="index.html" class="block w-full text-left py-3 px-4 rounded-lg bg-blue-50 text-blue-600 font-medium mb-2">Home</a>
+                <a href="about.html" class="block w-full text-left py-3 px-4 rounded-lg text-gray-700 hover:bg-gray-50 mb-2">About Us</a>
+                <a href="clients.html" class="block w-full text-left py-3 px-4 rounded-lg text-gray-700 hover:bg-gray-50 mb-2">Clients</a>
+                <a href="certifications.html" class="block w-full text-left py-3 px-4 rounded-lg text-gray-700 hover:bg-gray-50 mb-2">Certifications</a>
+                <a href="training.html" class="block w-full text-left py-3 px-4 rounded-lg text-gray-700 hover:bg-gray-50 mb-2">Training</a>
+                <a href="careers.html" class="block w-full text-left py-3 px-4 rounded-lg text-gray-700 hover:bg-gray-50 mb-2">Careers</a>
+                <a href="contact.html" class="block w-full text-left py-3 px-4 rounded-lg text-gray-700 hover:bg-gray-50 mb-2">Contact</a>
+                <a href="contact.html" class="block w-full mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium text-center">Get Started</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <!-- Hero -->
+        <section class="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-20">
+            <div class="absolute inset-0 grid-pattern opacity-20"></div>
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="text-center max-w-4xl mx-auto fade-in">
+                    <h1 class="text-5xl font-bold mb-6">Our Clients</h1>
+                    <p class="text-xl text-blue-100">Trusted by enterprises and startups across industries — we help build teams that deliver.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Logos -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold mb-4">Some of the companies we've worked with</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">We partner with companies of all sizes to provide staffing, consulting, and training services.</p>
+                </div>
+
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 items-center">
+                    <!-- Placeholder logos; replace with real images as needed -->
+                    <div class="flex items-center justify-center p-6 bg-gray-50 rounded-lg shadow-sm">
+                        <img src="https://via.placeholder.com/140x60?text=Client+1" alt="Client 1">
+                    </div>
+                    <div class="flex items-center justify-center p-6 bg-gray-50 rounded-lg shadow-sm">
+                        <img src="https://via.placeholder.com/140x60?text=Client+2" alt="Client 2">
+                    </div>
+                    <div class="flex items-center justify-center p-6 bg-gray-50 rounded-lg shadow-sm">
+                        <img src="https://via.placeholder.com/140x60?text=Client+3" alt="Client 3">
+                    </div>
+                    <div class="flex items-center justify-center p-6 bg-gray-50 rounded-lg shadow-sm">
+                        <img src="https://via.placeholder.com/140x60?text=Client+4" alt="Client 4">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies / Testimonials -->
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold mb-4">Client Success Stories</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">How we've helped clients scale rapidly and achieve their goals.</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-xl shadow-sm">
+                        <p class="text-gray-600 italic mb-6">"TechStaff Pro helped us fill a mission-critical engineering team in under a month — outstanding quality and speed."</p>
+                        <p class="font-semibold text-gray-900">Jane Williams</p>
+                        <p class="text-sm text-gray-500">VP Engineering, FinServCo</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm">
+                        <p class="text-gray-600 italic mb-6">"Their consultants integrated with our teams seamlessly and delivered measurable results."</p>
+                        <p class="font-semibold text-gray-900">Raj Patel</p>
+                        <p class="text-sm text-gray-500">Head of Product, RetailX</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm">
+                        <p class="text-gray-600 italic mb-6">"We rely on TechStaff Pro for hard-to-find cloud and security talent — they consistently deliver."</p>
+                        <p class="font-semibold text-gray-900">Linda Gomez</p>
+                        <p class="text-sm text-gray-500">CTO, HealthNow</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (copied from template) -->
+    <footer class="bg-gray-900 text-gray-300">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-xl">T</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white">TechStaff</h3>
+                            <p class="text-xs text-blue-400">Pro Solutions</p>
+                        </div>
+                    </div>
+                    <p class="text-sm mb-4">Leading provider of IT staffing solutions, connecting top talent with innovative companies worldwide.</p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-sm hover:text-blue-400">Home</a></li>
+                        <li><a href="about.html" class="text-sm hover:text-blue-400">About Us</a></li>
+                        <li><a href="clients.html" class="text-sm hover:text-blue-400">Clients</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="training.html" class="text-sm hover:text-blue-400">Training</a></li>
+                        <li><a href="certifications.html" class="text-sm hover:text-blue-400">Certifications</a></li>
+                        <li><a href="contact.html" class="text-sm hover:text-blue-400">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Contact Us</h4>
+                    <ul class="space-y-3">
+                        <li class="text-sm">123 Tech Avenue, Suite 500<br>San Francisco, CA 94102</li>
+                        <li class="text-sm"><a href="tel:+14155551234">+1 (415) 555-1234</a></li>
+                        <li class="text-sm"><a href="mailto:info@techstaffpro.com">info@techstaffpro.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-sm">
+                <p>&copy; 2026 TechStaff Pro Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
